@@ -81,12 +81,12 @@ const FaceLandmarkCanvas = () => {
         )}
       </div>
       <div className="mt-7">
-        <div className="grid grid-cols-1 sm:grid-cols-5 gap-4 w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-4 gap-5 w-full">
           {categories.map((category, index) => (
             <div key={index} className="flex items-center">
-              <div className="w-1/2">{category.categoryName}</div>
-              <div className="w-1/2">
-                <div className="w-32 h-4 bg-gray-200 rounded-full overflow-hidden">
+              <div className="w-3/5">{category.categoryName}</div>
+              <div className="w-3/5">
+                <div className="w-44 h-4 bg-gray-200 rounded-full overflow-hidden">
                   <div
                     className="h-full bg-green-500"
                     style={{

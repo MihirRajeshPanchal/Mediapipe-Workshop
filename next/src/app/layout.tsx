@@ -1,12 +1,17 @@
 import "../styles/globals.css";
 import { Inter } from "next/font/google";
 import Link from "next/link";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Mediapipe Workshop",
   description: "Mihir Panchal's Mediapipe Workshop",
+  icons:{
+    icon: "/favicon.png",
+  }
 };
 
 export default function RootLayout({
@@ -17,7 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+      <Navbar />
         {children}
+        <Footer />
         <Link
           href="https://github.com/MihirRajeshPanchal/Mediapipe-Workshop"
           className="group fixed bottom-5 right-5"
