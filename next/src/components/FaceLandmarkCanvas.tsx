@@ -25,7 +25,9 @@ const FaceLandmarkCanvas = () => {
           videoRef.current,
           Date.now()
         );
-        setCategories(landmarks.faceBlendshapes[0].categories);
+        if (landmarks && landmarks.faceBlendshapes && landmarks.faceBlendshapes.length > 0) {
+          setCategories(landmarks.faceBlendshapes[0].categories);
+        }
       } catch (e) {
         console.log(e);
       }
