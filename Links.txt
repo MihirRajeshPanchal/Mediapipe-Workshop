@@ -1,0 +1,7 @@
+Registration Link : https://lu.ma/kvk79yks
+Presentation Link : https://prezi.com/view/Th9iitE8Ft4fgi0nUrEg/
+Mediapipe Studio : https://mediapipe-studio.webapps.google.com/home
+Github Link : https://github.com/MihirRajeshPanchal/Mediapipe-Workshop
+Project Link : https://mediapipe-workshop.vercel.app/
+Roboflow Segmentation : https://universe.roboflow.com/microsoft/coco-dataset-vdnr1/model/11
+Roboflow Detection : https://universe.roboflow.com/microsoft/coco/model/18
